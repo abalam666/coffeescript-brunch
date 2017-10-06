@@ -26,6 +26,7 @@ class CoffeeScriptCompiler {
     this.bare = plugin.bare;
     this.sourceMaps = config.sourceMaps;
     this.isVendor = normalizeChecker(config.conventions.vendor);
+    this.transpile = config.plugins.babel;
   }
 
   compile(file) {
@@ -44,6 +45,10 @@ class CoffeeScriptCompiler {
       options.inlineMap = true;
     } else if (this.sourceMaps) {
       options.sourceMap = true;
+    }
+
+    if (this.transpile) {
+      options.transpile = this.transpile;
     }
 
     try {
