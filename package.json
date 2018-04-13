@@ -1,12 +1,12 @@
 {
   "name": "coffeescript-brunch",
-  "version": "2.10.2",
+  "version": "2.10.5",
   "description": "Adds CoffeeScript support to brunch.",
   "author": "Paul Miller (http://paulmillr.com/)",
-  "homepage": "https://github.com/shreeve/coffeescript-brunch",
+  "homepage": "https://github.com/abalam666/coffeescript-brunch",
   "repository": {
     "type": "git",
-    "url": "git@github.com:shreeve/coffeescript-brunch.git"
+    "url": "git@github.com:abalam666/coffeescript-brunch.git"
   },
   "scripts": {
     "test": "eslint index.js && eslint --env=mocha test.js && mocha"
