@@ -1,6 +1,7 @@
 # coffee-script-brunch
 
 Adds [CoffeeScript](http://coffeescript.org) support to [Brunch](http://brunch.io).
+
 Adds Coffeescript 2+ support for Brunch
 
 ## Installation
